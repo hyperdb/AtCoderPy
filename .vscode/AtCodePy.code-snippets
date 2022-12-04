@@ -1,0 +1,101 @@
+{
+	"def main": {
+		"prefix": ":main",
+		"body": [
+            "def main():",
+            "",
+            "if __name__ == \"__main__\":",
+            "    main()",
+		],
+	},
+	"def getString": {
+		"prefix": ":gs",
+		"body": [
+            "def getString():",
+            "    return input()",
+            "",
+            "",
+		],
+	},
+    "def getInt": {
+		"prefix": ":gi",
+		"body": [
+            "def getInt():",
+            "    return int(input())",
+            "",
+            "",
+		],
+	},
+    "def getFloat": {
+		"prefix": ":gf",
+		"body": [
+            "def getFloat():",
+            "    return float(input())",
+            "",
+            "",
+		],
+	},
+	"def getStringList": {
+		"prefix": ":gsl",
+		"body": [
+            "def getStringList():",
+            "    return input().split()",
+            "",
+            "",
+		],
+	},
+    "def getIntList": {
+		"prefix": ":gil",
+		"body": [
+            "def getIntList():",
+            "    return list(map(int, input().split()))",
+            "",
+            "",
+		],
+	},
+    "def getFloatList": {
+		"prefix": ":gfl",
+		"body": [
+            "def getFloatList():",
+            "    return list(map(float, input().split()))",
+            "",
+            "",
+		],
+	},
+    "def getStringRow": {
+		"prefix": ":gsr",
+		"body": [
+            "def getStringRow(N):",
+            "    l = []",
+            "    for _ in range(N):",
+            "        l.append(input())",
+            "    return l",
+            "",
+            "",
+		],
+	},
+    "def getIntRow": {
+		"prefix": ":gir",
+		"body": [
+            "def getIntRow(N):",
+            "    l = []",
+            "    for _ in range(N):",
+            "        l.append(int(input()))",
+            "    return l",
+            "",
+            "",
+		],
+	},
+    "def getFloatRow": {
+		"prefix": ":gfr",
+		"body": [
+            "def getFloatRow(N):",
+            "    l = []",
+            "    for _ in range(N):",
+            "        l.append(float(input()))",
+            "    return l",
+            "",
+            "",
+		],
+	},
+}
