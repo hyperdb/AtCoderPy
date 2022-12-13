@@ -6,11 +6,10 @@ def getIntList():
 
 
 def main():
+    d = getIntList()
+    d.sort()
 
-    data = getIntList()
-    data.sort()
-
-    if (data == [5, 5, 7]):
+    if d == [5, 5, 7]:
         print('YES')
     else:
         print('NO')

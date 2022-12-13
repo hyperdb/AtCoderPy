@@ -6,19 +6,15 @@ def getIntList():
 
 
 def getStringRow(N):
-    l = []
-    for _ in range(N):
-        l.append(input())
-    return l
+    return [input() for _ in range(N)]
 
 
 def main():
-    param = getIntList()
-    data = getStringRow(param[0])
+    p = getIntList()
+    d = getStringRow(p[0])
+    d.sort()
 
-    data.sort()
-
-    print("".join(data))
+    print("".join(d))
 
 
 if __name__ == "__main__":

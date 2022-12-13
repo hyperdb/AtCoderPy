@@ -5,22 +5,22 @@ def getString():
     return input()
 
 
-def kb_proc(key, buf):
-    if (key == 'B'):
-        if (len(key) > 0):
+def kb_proc(k, buf):
+    if (k == 'B'):
+        if (len(k) > 0):
             buf = buf[:-1]
     else:
-        buf += key
+        buf += k
     return buf
 
 
 def main():
-    data = getString()
-    value = ''
+    d = getString()
+    v = ''
 
-    for c in list(data):
-        value = kb_proc(c, value)
-    print(value)
+    for c in list(d):
+        v = kb_proc(c, v)
+    print(v)
 
 
 if __name__ == "__main__":
