@@ -9,10 +9,7 @@ def main():
     d = getIntList()
     d.sort()
 
-    if d[2] == d[0] + d[1]:
-        print('Yes')
-    else:
-        print('No')
+    print('Yes' if d[2] == d[0] + d[1] else 'No')
 
 
 if __name__ == "__main__":

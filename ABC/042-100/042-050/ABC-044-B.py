@@ -6,26 +6,20 @@ def getString():
 
 
 def main():
-    data = getString()
+    buf = list(getString())
 
     d = dict()
     f = True
 
-    for c in list(data):
-        if c in d:
-            d[c] = d[c] + 1
-        else:
-            d[c] = 1
+    for c in buf:
+        d[c] = d[c] + 1 if c in d else 1
 
     for v in d.values():
         if v % 2 == 1:
             f = False
             break
 
-    if f == True:
-        print('Yes')
-    else:
-        print('No')
+    print('Yes' if f == True else 'No')
 
 
 if __name__ == "__main__":

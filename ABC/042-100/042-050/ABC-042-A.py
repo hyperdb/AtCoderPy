@@ -9,10 +9,7 @@ def main():
     d = getIntList()
     d.sort()
 
-    if d == [5, 5, 7]:
-        print('YES')
-    else:
-        print('NO')
+    print('YES' if d == [5, 5, 7] else 'NO')
 
 
 if __name__ == "__main__":

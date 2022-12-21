@@ -11,10 +11,7 @@ def main():
     X = getInt()
     Y = getInt()
 
-    if (N < K):
-        print(N * X)
-    else:
-        print(K * X + (N - K) * Y)
+    print((N * X) if N < K else (K * X + (N - K) * Y))
 
 
 if __name__ == "__main__":

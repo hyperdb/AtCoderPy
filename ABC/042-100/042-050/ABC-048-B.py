@@ -8,12 +8,7 @@ def getIntMap():
 def main():
     a, b, x = getIntMap()
 
-    c = 0
-    if a == 0:
-        c = (b // x) + 1
-    else:
-        c = (b // x) - ((a - 1) // x)
-    print(c)
+    print(((b // x) + 1) if a == 0 else ((b // x) - ((a - 1) // x)))
 
 
 if __name__ == "__main__":

@@ -7,10 +7,7 @@ def getString():
 
 def main():
     c = getString()
-    if c in ['a', 'i', 'u', 'e', 'o']:
-        print('vowel')
-    else:
-        print('consonant')
+    print('vowel' if c in ['a', 'i', 'u', 'e', 'o'] else 'consonant')
 
 
 if __name__ == "__main__":
