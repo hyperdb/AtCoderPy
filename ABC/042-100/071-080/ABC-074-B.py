@@ -1,4 +1,4 @@
-# B - Collecting Balls (Easy Version)
+# ABC-074 B - Collecting Balls (Easy Version)
 # https://atcoder.jp/contests/abc074/tasks/abc074_b
 #
 def getInt():
