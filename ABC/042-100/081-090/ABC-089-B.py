@@ -1,4 +1,4 @@
-# B - Hina Arare
+# ABC-089 B - Hina Arare
 # https://atcoder.jp/contests/abc089/tasks/abc089_b
 #
 def getInt():
