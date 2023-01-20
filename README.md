@@ -1,4 +1,4 @@
-# AtCorderPy
+# AtCoderPy
 
 **Python**で書いた[AtCoder](https://atcoder.jp/)の解答プログラムを管理するためのリポジトリです。
 
