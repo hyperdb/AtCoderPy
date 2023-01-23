@@ -10,7 +10,7 @@ def main():
     t = getString()
 
     r = 'No'
-    for i in range(0, len(s)):
+    for i in range(len(s)):
         if t == (s[i:] + s[:i]):
             r = 'Yes'
             break
