@@ -1,4 +1,4 @@
-# A - Rated for Me
+# ABC-104 A - Rated for Me
 # https://atcoder.jp/contests/abc104/tasks/abc104_a
 #
 def getInt():
