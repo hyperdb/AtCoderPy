@@ -11,9 +11,7 @@ def getIntMap():
 def main():
     n, k = getIntMap()
 
-    m = n % k
-
-    print(0 if m == 0 else math.ceil(m / k))
+    print(math.ceil((n % k) / k))
 
 
 if __name__ == "__main__":
