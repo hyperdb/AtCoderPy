@@ -11,10 +11,7 @@ def main():
     if n == 1:
         print(k)
     else:
-        v = k
-        for i in range(n - 1):
-            v = v * (k - 1)
-        print(v)
+        print(k * ((k - 1) ** (n - 1)))
 
 
 if __name__ == "__main__":
