@@ -11,3 +11,4 @@
 | ABC-137 | [ABC-137-A](ABC-137-A.py) | [ABC-137-B](ABC-137-B.py) |  |  |  |  |
 | ABC-138 | [ABC-138-A](ABC-138-A.py) | [ABC-138-B](ABC-138-B.py) |  |  |  |  |
 | ABC-139 | [ABC-139-A](ABC-139-A.py) | [ABC-139-B](ABC-139-B.py) |  |  |  |  |
+| ABC-140 | [ABC-140-A](ABC-140-A.py) | [ABC-140-B](ABC-140-B.py) |  |  |  |  |
