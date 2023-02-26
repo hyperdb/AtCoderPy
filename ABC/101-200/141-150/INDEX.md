@@ -9,3 +9,5 @@
 | ABC-145 | [ABC-145-A](ABC-145-A.py) | [ABC-145-B](ABC-145-B.py) |  |  |  |  |
 | ABC-146 | [ABC-146-A](ABC-146-A.py) | [ABC-146-B](ABC-146-B.py) |  |  |  |  |
 | ABC-147 | [ABC-147-A](ABC-147-A.py) | [ABC-147-B](ABC-147-B.py) |  |  |  |  |
+| ABC-148 | [ABC-148-A](ABC-148-A.py) | [ABC-148-B](ABC-148-B.py) |  |  |  |  |
+| ABC-149 | [ABC-149-A](ABC-149-A.py) | [ABC-149-B](ABC-149-B.py) |  |  |  |  |
