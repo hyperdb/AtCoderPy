@@ -11,3 +11,4 @@
 | ABC-147 | [ABC-147-A](ABC-147-A.py) | [ABC-147-B](ABC-147-B.py) |  |  |  |  |
 | ABC-148 | [ABC-148-A](ABC-148-A.py) | [ABC-148-B](ABC-148-B.py) |  |  |  |  |
 | ABC-149 | [ABC-149-A](ABC-149-A.py) | [ABC-149-B](ABC-149-B.py) |  |  |  |  |
+| ABC-150 | [ABC-150-A](ABC-150-A.py) | [ABC-149-B](ABC-150-B.py) |  |  |  |  |
