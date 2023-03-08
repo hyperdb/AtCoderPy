@@ -11,3 +11,4 @@
 | ABC-157 | [ABC-157-A](ABC-157-A.py) | [ABC-157-B](ABC-157-B.py) |  |  |  |  |
 | ABC-158 | [ABC-158-A](ABC-158-A.py) | [ABC-158-B](ABC-158-B.py) |  |  |  |  |
 | ABC-159 | [ABC-159-A](ABC-159-A.py) | [ABC-159-B](ABC-159-B.py) |  |  |  |  |
+| ABC-160 | [ABC-160-A](ABC-160-A.py) | [ABC-160-B](ABC-160-B.py) |  |  |  |  |
