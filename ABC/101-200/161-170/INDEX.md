@@ -8,3 +8,4 @@
 | ABC-164 | [ABC-164-A](ABC-164-A.py) | [ABC-164-B](ABC-164-B.py) |  |  |  |  |
 | ABC-165 | [ABC-165-A](ABC-165-A.py) | [ABC-165-B](ABC-165-B.py) |  |  |  |  |
 | ABC-166 | [ABC-166-A](ABC-166-A.py) | [ABC-166-B](ABC-166-B.py) |  |  |  |  |
+| ABC-167 | [ABC-167-A](ABC-167-A.py) | [ABC-167-B](ABC-167-B.py) |  |  |  |  |
