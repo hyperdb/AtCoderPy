@@ -7,3 +7,4 @@
 | ABC-193 | [ABC-193-A](ABC-193-A.py) | [ABC-193-B](ABC-193-B.py) |  |  |  |  |
 | ABC-194 | [ABC-194-A](ABC-194-A.py) | [ABC-194-B](ABC-194-B.py) |  |  |  |  |
 | ABC-195 | [ABC-195-A](ABC-195-A.py) | [ABC-195-B](ABC-195-B.py) |  |  |  |  |
+| ABC-196 | [ABC-196-A](ABC-196-A.py) | [ABC-196-B](ABC-196-B.py) |  |  |  |  |
