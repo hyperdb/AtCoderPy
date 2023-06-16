@@ -7,3 +7,4 @@
 | ABC-243 | [ABC-243-A](ABC-243-A.py) | [ABC-243-B](ABC-243-B.py) |  |  |  |  |
 | ABC-244 | [ABC-244-A](ABC-244-A.py) | [ABC-244-B](ABC-244-B.py) |  |  |  |  |
 | ABC-245 | [ABC-245-A](ABC-245-A.py) | [ABC-245-B](ABC-245-B.py) |  |  |  |  |
+| ABC-246 | [ABC-246-A](ABC-246-A.py) | [ABC-246-B](ABC-246-B.py) |  |  |  |  |
