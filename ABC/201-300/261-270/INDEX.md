@@ -10,3 +10,4 @@
 | ABC-266 | [ABC-266-A](ABC-266-A.py) | [ABC-266-B](ABC-266-B.py) |  |  |  |  |
 | ABC-267 | [ABC-267-A](ABC-267-A.py) | [ABC-267-B](ABC-267-B.py) |  |  |  |  |
 | ABC-268 | [ABC-268-A](ABC-268-A.py) | [ABC-268-B](ABC-268-B.py) |  |  |  |  |
+| ABC-269 | [ABC-269-A](ABC-269-A.py) | [ABC-269-B](ABC-269-B.py) |  |  |  |  |
