@@ -11,3 +11,4 @@
 | ABC-277 | [ABC-277-A](ABC-277-A.py) | [ABC-277-B](ABC-277-B.py) |  |  |  |  |
 | ABC-278 | [ABC-278-A](ABC-278-A.py) | [ABC-278-B](ABC-278-B.py) |  |  |  |  |
 | ABC-279 | [ABC-279-A](ABC-279-A.py) | [ABC-279-B](ABC-279-B.py) |  |  |  |  |
+| ABC-280 | [ABC-280-A](ABC-280-A.py) | [ABC-280-B](ABC-280-B.py) |  |  |  |  |
