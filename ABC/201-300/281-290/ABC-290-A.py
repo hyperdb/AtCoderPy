@@ -1,4 +1,4 @@
-# A - Contest Result
+# ABC-290 A - Contest Result
 # https://atcoder.jp/contests/abc290/tasks/abc290_a
 #
 def getIntMap():
