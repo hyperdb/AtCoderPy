@@ -8,3 +8,4 @@
 | ABC-294 | [ABC-294-A](ABC-294-A.py) | [ABC-294-B](ABC-294-B.py) |  |  |  |  |
 | ABC-295 | [ABC-295-A](ABC-295-A.py) | [ABC-295-B](ABC-295-B.py) |  |  |  |  |
 | ABC-296 | [ABC-296-A](ABC-296-A.py) | [ABC-296-B](ABC-296-B.py) |  |  |  |  |
+| ABC-297 | [ABC-297-A](ABC-297-A.py) | [ABC-297-B](ABC-297-B.py) |  |  |  |  |
