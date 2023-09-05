@@ -1,4 +1,4 @@
-# A - Treasure Chest
+# ABC-299 A - Treasure Chest
 # https://atcoder.jp/contests/abc299/tasks/abc299_a
 #
 def getInt():
