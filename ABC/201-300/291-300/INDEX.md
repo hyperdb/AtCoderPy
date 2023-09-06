@@ -11,3 +11,4 @@
 | ABC-297 | [ABC-297-A](ABC-297-A.py) | [ABC-297-B](ABC-297-B.py) |  |  |  |  |
 | ABC-298 | [ABC-298-A](ABC-298-A.py) | [ABC-298-B](ABC-298-B.py) |  |  |  |  |
 | ABC-299 | [ABC-299-A](ABC-299-A.py) | [ABC-299-B](ABC-299-B.py) |  |  |  |  |
+| ABC-300 | [ABC-300-A](ABC-300-A.py) | [ABC-300-B](ABC-300-B.py) |  |  |  |  |
