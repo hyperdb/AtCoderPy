@@ -1,5 +1,5 @@
-#
-#
+# ABC-311 B - Vacation Together
+# https://atcoder.jp/contests/abc311/tasks/abc311_b
 #
 def getIntMap():
     return map(int, input().split())
