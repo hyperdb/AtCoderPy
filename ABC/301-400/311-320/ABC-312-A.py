@@ -1,5 +1,5 @@
-#
-#
+# ABC-312 A - Chord
+# https://atcoder.jp/contests/abc312/tasks/abc312_a
 #
 def getString():
     return input()
