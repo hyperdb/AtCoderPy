@@ -9,3 +9,4 @@
 | ABC-315 | [ABC-315-A](ABC-315-A.py) | [ABC-315-B](ABC-315-B.py) |  |  |  |  |
 | ABC-316 | --- | --- |  |  |  |  |
 | ABC-317 | [ABC-317-A](ABC-317-A.py) | [ABC-317-B](ABC-317-B.py) |  |  |  |  |
+| ABC-318 | [ABC-318-A](ABC-318-A.py) | [ABC-318-B](ABC-318-B.py) |  |  |  |  |
