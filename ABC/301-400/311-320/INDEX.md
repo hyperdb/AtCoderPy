@@ -9,6 +9,6 @@
 | ABC-315 | [ABC-315-A](ABC-315-A.py) | [ABC-315-B](ABC-315-B.py) |  |  |  |  |
 | ABC-316 | --- | --- |  |  |  |  |
 | ABC-317 | [ABC-317-A](ABC-317-A.py) | [ABC-317-B](ABC-317-B.py) |  |  |  |  |
-| ABC-318 | [ABC-318-A](ABC-318-A.py) | [ABC-318-B](ABC-318-B.py) |  |  |  |  |
+| ABC-318 | [ABC-318-A](ABC-318-A.py) | [ABC-318-B](ABC-318-B.py) | [ABC-318-C](ABC-318-C.py) |  |  |  |
 | ABC-319 | [ABC-319-A](ABC-319-A.py) | [ABC-319-B](ABC-319-B.py) | [ABC-319-C](ABC-319-C.py) |  |  |  |
-| ABC-320 | [ABC-320-A](ABC-320-A.py) | [ABC-320-B](ABC-320-B.py) | [ABC-320-C](ABC-320-C.py)   |  |  |  |
+| ABC-320 | [ABC-320-A](ABC-320-A.py) | [ABC-320-B](ABC-320-B.py) | [ABC-320-C](ABC-320-C.py) |  |  |  |
