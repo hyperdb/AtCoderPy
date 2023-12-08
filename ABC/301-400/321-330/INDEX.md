@@ -10,3 +10,4 @@
 | ABC-326 | [ABC-326-A](ABC-326-A.py) | [ABC-326-B](ABC-326-B.py) |  |  |  |  |
 | ABC-327 | [ABC-327-A](ABC-327-A.py) | [ABC-327-B](ABC-327-B.py) |  |  |  |  |
 | ABC-328 | [ABC-328-A](ABC-328-A.py) | [ABC-328-B](ABC-328-B.py) |  |  |  |  |
+| ABC-329 | [ABC-329-A](ABC-329-A.py) | [ABC-329-B](ABC-329-B.py) |  |  |  |  |
