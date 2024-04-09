@@ -1,4 +1,4 @@
-# B - Substring
+# ABC-347 B - Substring
 # https://atcoder.jp/contests/abc347/tasks/abc347_b
 #
 def getString():
