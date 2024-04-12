@@ -1,5 +1,5 @@
-#
-#
+# ABC-347 C - Ideal Holidays
+# https://atcoder.jp/contests/abc347/tasks/abc347_c
 #
 def getIntMap():
     return map(int, input().split())
