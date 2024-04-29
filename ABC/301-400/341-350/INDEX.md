@@ -9,3 +9,4 @@
 | ABC-345 | [ABC-345-A](ABC-345-A.py) | [ABC-345-B](ABC-345-B.py) | [ABC-345-C](ABC-345-C.py) |  |  |  |
 | ABC-346 | [ABC-346-A](ABC-346-A.py) | [ABC-346-B](ABC-346-B.py) | [ABC-346-C](ABC-346-C.py) |  |  |  |
 | ABC-347 | [ABC-347-A](ABC-347-A.py) | [ABC-347-B](ABC-347-B.py) | [ABC-347-C](ABC-347-C.py) |  |  |  |
+| ABC-348 | [ABC-348-A](ABC-348-A.py) | [ABC-348-B](ABC-348-B.py) | [ABC-348-C](ABC-348-C.py) |  |  |  |
