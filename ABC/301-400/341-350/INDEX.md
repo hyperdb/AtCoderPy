@@ -10,3 +10,4 @@
 | ABC-346 | [ABC-346-A](ABC-346-A.py) | [ABC-346-B](ABC-346-B.py) | [ABC-346-C](ABC-346-C.py) |  |  |  |
 | ABC-347 | [ABC-347-A](ABC-347-A.py) | [ABC-347-B](ABC-347-B.py) | [ABC-347-C](ABC-347-C.py) |  |  |  |
 | ABC-348 | [ABC-348-A](ABC-348-A.py) | [ABC-348-B](ABC-348-B.py) | [ABC-348-C](ABC-348-C.py) |  |  |  |
+| ABC-349 | [ABC-349-A](ABC-349-A.py) | [ABC-349-B](ABC-349-B.py) | [ABC-349-C](ABC-349-C.py) |  |  |  |
