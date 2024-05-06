@@ -1,4 +1,4 @@
-# C - Leftover Recipes
+# ABC-338 C - Leftover Recipes
 # https://atcoder.jp/contests/abc338/tasks/abc338_c
 #
 def getInt():
