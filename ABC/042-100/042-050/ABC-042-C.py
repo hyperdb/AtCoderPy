@@ -20,7 +20,7 @@ def main():
     n, k = getIntMap()
     data = getIntList()
 
-    for c in range(n, 10000):
+    for c in range(n, 100000):
         if check_num(c, data):
             print(c)
             break
