@@ -6,8 +6,8 @@ def getInt():
 
 
 def main():
-    p = getInt()
-    print(int(((p + 1) * p) / 2))
+    N = getInt()
+    print(int(((N + 1) * N) / 2))
 
 
 if __name__ == "__main__":

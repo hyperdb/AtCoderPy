@@ -1,8 +1,8 @@
 # ABC042 B - 文字列大好きいろはちゃんイージー
 # https://atcoder.jp/contests/abc042/tasks/abc042_b
 #
-def getIntList():
-    return list(map(int, input().split()))
+def getIntMap():
+    return map(int, input().split())
 
 
 def getStringRow(N):
@@ -10,11 +10,11 @@ def getStringRow(N):
 
 
 def main():
-    p = getIntList()
-    d = getStringRow(p[0])
-    d.sort()
+    N, L = getIntMap()
+    S = getStringRow(N)
+    S.sort()
 
-    print("".join(d))
+    print("".join(S))
 
 
 if __name__ == "__main__":

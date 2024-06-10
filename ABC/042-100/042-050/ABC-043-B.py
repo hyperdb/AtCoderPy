@@ -15,10 +15,10 @@ def kb_proc(k, buf):
 
 
 def main():
-    d = getString()
-    v = ''
+    S = getString()
 
-    for c in list(d):
+    v = ''
+    for c in list(S):
         v = kb_proc(c, v)
     print(v)
 

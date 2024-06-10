@@ -17,11 +17,11 @@ def check_num(data, err_data):
 
 
 def main():
-    n, k = getIntMap()
-    data = getIntList()
+    N, K = getIntMap()
+    D = getIntList()
 
-    for c in range(n, 100000):
-        if check_num(c, data):
+    for c in range(N, 100000):
+        if check_num(c, D):
             print(c)
             break
 
