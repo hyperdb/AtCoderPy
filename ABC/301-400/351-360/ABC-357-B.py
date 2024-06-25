@@ -1,4 +1,4 @@
-# ABC-457 B - Uppercase and Lowercase
+# ABC-357 B - Uppercase and Lowercase
 # https://atcoder.jp/contests/abc357/tasks/abc357_b
 #
 def getString():
