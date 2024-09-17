@@ -1,5 +1,5 @@
-#
-#
+# ABC-368 C - Triple Attack
+# https://atcoder.jp/contests/abc368/tasks/abc368_c
 #
 def getInt():
     return int(input())
