@@ -9,14 +9,6 @@ def getStringListRow(N):
     return [list(input().split()) for _ in range(N)]
 
 
-def goR(s, e, n):
-    return e - s if e > s else n - abs(e - s)
-
-
-def goL(s, e, n):
-    return n - goR(s, e, n)
-
-
 def main():
     N, Q = getIntMap()
     HT = getStringListRow(Q)
