@@ -1,11 +1,7 @@
 # ABC-044 C - 高橋君とカード
 # https://atcoder.jp/contests/abc044/tasks/arc060_a
 #
-# 参考： https://atcoder.jp/contests/abc044/submissions/36687846
-import itertools
-
-
-def getIntMapt():
+def getIntMap():
     return map(int, input().split())
 
 
@@ -14,28 +10,27 @@ def getIntList():
 
 
 def main():
-    n, a = getIntMapt()
+    N, A = getIntMap()
     x = getIntList()
 
-    s = sum(x)
-    dp = [[0] * (s + 1) for _ in range(n)]
+    dp = [[[0 for _ in range(N + 1)] for _ in range(N * 50 + 1)] for _ in range(N + 1)]
 
-    for i in range(n):
-        v = x[i]
-        if i > 0:
-            for j in range(s + 1):
-                dp[i][j] = dp[i - 1][j]
-        for k in range(s + 1):
-            if dp[i - 1][k] > 0:
-                dp[i][k + v] += 1
-        dp[i][v] += 1
+    dp[0][0][0] = 1
 
-    c = 0
-    for i in range(1, s + 1):
-        if i % a == 0:
-            c += dp[n - 1][i]
+    for i in range(N):
+        for j in range(sum(x)):
+            for k in range(N):
+                if dp[i][j][k] == 0:
+                    continue
+                else:
+                    dp[i + 1][j][k] += dp[i][j][k]
+                    dp[i + 1][j + x[i]][k + 1] += dp[i][j][k]
 
-    print(c)
+    r = 0
+    for k in range(1, N + 1):
+        r += dp[N][A * k][k]
+
+    print(r)
 
 
 if __name__ == "__main__":
