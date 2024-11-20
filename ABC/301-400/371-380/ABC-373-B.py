@@ -1,4 +1,4 @@
-# ABC-372 B - 1D Keyboard
+# ABC-373 B - 1D Keyboard
 # https://atcoder.jp/contests/abc373/tasks/abc373_b
 #
 def getString():
