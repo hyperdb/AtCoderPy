@@ -1,4 +1,4 @@
-# A - 11/22 String
+# ABC-308 A - 11/22 String
 # https://atcoder.jp/contests/abc381/tasks/abc381_a
 #
 def getInt():

@@ -1,4 +1,4 @@
-# ABC-391 B - 1122 String
+# ABC-381 B - 1122 String
 # https://atcoder.jp/contests/abc381/tasks/abc381_b
 #
 def getString():
