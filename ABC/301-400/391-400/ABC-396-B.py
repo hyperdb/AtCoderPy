@@ -1,4 +1,4 @@
-# B - Card Pile
+# ABC-396 B - Card Pile
 # https://atcoder.jp/contests/abc396/tasks/abc396_b
 #
 def getInt():
