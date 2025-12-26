@@ -1,8 +1,7 @@
 #
 #----------
 .vscode/settings.json
-.history
-
+.venv
 #
 #----------
 in.txt
