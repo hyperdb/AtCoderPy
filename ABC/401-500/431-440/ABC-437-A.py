@@ -1,4 +1,4 @@
-# A - Feet
+# ABC-437 A - Feet
 # https://atcoder.jp/contests/abc437/tasks/abc437_a
 #
 def getIntMap():
