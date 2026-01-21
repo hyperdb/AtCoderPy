@@ -22,16 +22,14 @@ def getCost(data, i):
 def main():
     param = getInt()
 
-    if (param > 0):
+    if param > 0:
         data = getIntList()
         ave = sum(data) / len(data)
         cost = 0
         if ave.is_integer():
             cost = getCost(data, int(ave))
         else:
-            c1 = getCost(data, math.floor(ave))
-            c2 = getCost(data, math.ceil(ave))
-            cost = c1 if c1 < c2 else c2
+            cost = min(getCost(data, math.floor(ave)), getCost(data, math.ceil(ave)))
         print(cost)
 
     else:
