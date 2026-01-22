@@ -17,7 +17,7 @@ def check_num(data, err_data):
 
 
 def main():
-    N, K = getIntMap()
+    N, _ = getIntMap()  # Kは使わない
     D = getIntList()
 
     for c in range(N, 100000):
