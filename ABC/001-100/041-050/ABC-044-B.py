@@ -19,7 +19,7 @@ def main():
             f = False
             break
 
-    print('Yes' if f == True else 'No')
+    print("Yes" if f else "No")
 
 
 if __name__ == "__main__":
