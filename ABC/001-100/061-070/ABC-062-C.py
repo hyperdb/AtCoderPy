@@ -5,13 +5,13 @@ def getIntMap():
     return map(int, input().split())
 
 
-def dvide3(n, m):
+def divide3(n, m):
     # 三等分できれば0
     # そうでなければ余りを分配
     return 0 if n % 3 == 0 else m
 
 
-def devide2x2(n, m):
+def divide2x2(n, m):
     result = n * m
     # nを2つに分けて、片側をさらに2つに分ける
     for i in range(1, n):
@@ -42,10 +42,10 @@ def main():
     H, W = getIntMap()
 
     # 一辺を3つに分けるパターン
-    div3 = min(dvide3(H, W), dvide3(W, H))
+    div3 = min(divide3(H, W), divide3(W, H))
 
     # 辺を2つに分けて、片側をさらに2つに分けるパターン
-    div2x2 = min(devide2x2(H, W), devide2x2(W, H))
+    div2x2 = min(divide2x2(H, W), divide2x2(W, H))
 
     print(min(div3, div2x2))
 
