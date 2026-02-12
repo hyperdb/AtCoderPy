@@ -1,14 +1,14 @@
 # ABC-045 A - 台形
 # https://atcoder.jp/contests/abc045/tasks/abc045_a
 #
-def getInt():
+def getInt() -> int:
     return int(input())
 
 
 def main():
-    a = getInt()
-    b = getInt()
-    h = getInt()
+    a: int = getInt()
+    b: int = getInt()
+    h: int = getInt()
 
     print(int((a + b) * h / 2))
 

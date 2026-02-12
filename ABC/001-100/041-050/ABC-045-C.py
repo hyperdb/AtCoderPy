@@ -4,19 +4,19 @@
 import itertools
 
 
-def getString():
+def getString() -> str:
     return input()
 
 
 def main():
-    S = list(getString())
-    T = [i for i in range(len(S) - 1)]
+    S: list[str] = list(getString())
+    T: list[int] = [i for i in range(len(S) - 1)]
 
-    m = 0
+    m: int = 0
     for i in range(len(T)):
         # `+`の入る位置を組み合わせで求める
         for t in list(itertools.combinations(T, i + 1)):
-            n = 0
+            n: int = 0
             for j in range(len(S)):
                 # `+`に出会うまで桁繰り上げ
                 n = n * 10 + int(S[j])
