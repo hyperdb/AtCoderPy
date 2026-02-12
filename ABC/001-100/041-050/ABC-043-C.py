@@ -4,28 +4,28 @@
 import math
 
 
-def getInt():
+def getInt() -> int:
     return int(input())
 
 
-def getIntList():
+def getIntList() -> list[int]:
     return list(map(int, input().split()))
 
 
-def getCost(data, i):
+def getCost(data: list[int], n: int) -> int:
     c = 0
     for d in data:
-        c += pow(d - i, 2)
+        c += pow(d - n, 2)
     return c
 
 
 def main():
-    param = getInt()
+    N: int = getInt()
 
-    if param > 0:
-        data = getIntList()
-        ave = sum(data) / len(data)
-        cost = 0
+    if N > 0:
+        data: list[int] = getIntList()
+        ave: float = sum(data) / len(data)
+        cost: int = 0
         if ave.is_integer():
             cost = getCost(data, int(ave))
         else:

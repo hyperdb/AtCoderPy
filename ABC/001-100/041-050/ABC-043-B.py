@@ -1,13 +1,13 @@
 # ABC-043 B - バイナリハックイージー
 # https://atcoder.jp/contests/abc043/tasks/abc043_b
 #
-def getString():
+def getString() -> str:
     return input()
 
 
-def kb_proc(k, buf):
-    if (k == 'B'):
-        if (len(k) > 0):
+def kb_proc(k: str, buf: str) -> str:
+    if k == "B":
+        if len(buf) > 0:
             buf = buf[:-1]
     else:
         buf += k
@@ -15,9 +15,9 @@ def kb_proc(k, buf):
 
 
 def main():
-    S = getString()
+    S: str = getString()
 
-    v = ''
+    v: str = ""
     for c in list(S):
         v = kb_proc(c, v)
     print(v)
