@@ -1,26 +1,26 @@
 # ABC-046 C - AtCoDeerくんと選挙速報
 # https://atcoder.jp/contests/abc046/tasks/arc062_a
 #
-def getInt():
+def getInt() -> int:
     return int(input())
 
 
-def getIntListRow(N):
+def getIntListRow(N: int) -> list[list[int]]:
     return [list(map(int, input().split())) for _ in range(N)]
 
 
 def main():
-    N = getInt()
-    TA = getIntListRow(N)
+    N: int = getInt()
+    TA: list[list[int]] = getIntListRow(N)
 
-    rt = 1
-    ra = 1
+    rt: int = 1
+    ra: int = 1
     for i in range(N):
-        T = TA[i][0]
-        A = TA[i][1]
+        T: int = TA[i][0]
+        A: int = TA[i][1]
 
-        x = (rt + T - 1) // T
-        y = (ra + A - 1) // A
+        x: int = (rt + T - 1) // T
+        y: int = (ra + A - 1) // A
 
         rt = T * max(x, y)
         ra = A * max(x, y)

@@ -1,39 +1,47 @@
 # ABC-047 B - すぬけ君の塗り絵 2 イージー
 # https://atcoder.jp/contests/abc047/tasks/abc047_b
 #
-def getIntMap():
-    return map(int, input().split())
+def getIntMap() -> tuple[int, int, int]:
+    return tuple(map(int, input().split()))
 
 
-def getIntListRow(N):
+def getIntList() -> list[int]:
+    return list(map(int, input().split()))
+
+
+def getIntListRow(N: int) -> list[list[int]]:
     return [list(map(int, input().split())) for _ in range(N)]
 
 
 def main():
-    w, h, n = getIntMap()
-    l = getIntListRow(n)
+    W: int
+    H: int
+    N: int
+    W, H, N = getIntMap()
+    L: list[list[int]] = getIntListRow(N)
 
-    m = [[1 for _ in range(w)] for _ in range(h)]
+    M: list[list[int]] = [[1 for _ in range(W)] for _ in range(H)]
 
-    for r in l:
-        if r[2] == 1:
-            for i in range(h):
-                for j in range(r[0]):
-                    m[i][j] = 0
-        elif r[2] == 2:
-            for i in range(h):
-                for j in range(r[0], w):
-                    m[i][j] = 0
-
-        elif r[2] == 3:
-            for i in range(r[1]):
-                for j in range(w):
-                    m[i][j] = 0
+    row: list[int]
+    for row in L:
+        if row[2] == 1:
+            for i in range(H):
+                for j in range(row[0]):
+                    M[i][j] = 0
+        elif row[2] == 2:
+            for i in range(H):
+                for j in range(row[0], W):
+                    M[i][j] = 0
+        elif row[2] == 3:
+            for i in range(row[1]):
+                for j in range(W):
+                    M[i][j] = 0
         else:
-            for i in range(r[1], h):
-                for j in range(w):
-                    m[i][j] = 0
-    print(sum(sum(row) for row in m))
+            for i in range(row[1], H):
+                for j in range(W):
+                    M[i][j] = 0
+
+    print(sum(sum(row) for row in M))
 
 
 if __name__ == "__main__":

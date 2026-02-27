@@ -1,13 +1,13 @@
 # ABC-046 A - AtCoDeerくんとペンキ
 # https://atcoder.jp/contests/abc046/tasks/abc046_a
 #
-def getIntList():
+def getIntList() -> list[int]:
     return list(map(int, input().split()))
 
 
 def main():
-    l = getIntList()
-    print(len(list(set(l))))
+    L = getIntList()
+    print(len(list(set(L))))
 
 
 if __name__ == "__main__":
