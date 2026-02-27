@@ -1,5 +1,5 @@
-#
-#
+# ABC-093 C - Same Integers
+# https://atcoder.jp/contests/abc093/tasks/arc094_a
 #
 def getIntList():
     return list(map(int, input().split()))
