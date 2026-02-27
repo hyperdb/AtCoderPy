@@ -1,5 +1,5 @@
-#
-#
+# ABC-092 C - Traveling Plan
+# https://atcoder.jp/contests/abc092/tasks/arc093_a
 #
 def getInt():
     return int(input())
