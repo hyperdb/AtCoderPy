@@ -1,3 +1,6 @@
+# ABC-449 C - Comfortable Distance
+# https://atcoder.jp/contests/abc449/tasks/abc449_c
+#
 def getIntMap():
     return map(int, input().split())
 
