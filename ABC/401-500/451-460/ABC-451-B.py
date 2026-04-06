@@ -16,11 +16,11 @@ def main():
     AB = getIntListRow(N)
     current = [0] * M
     next = [0] * M
-
+    # それぞれの部署を数える
     for a, b in AB:
         current[a - 1] += 1
         next[b - 1] += 1
-
+    # 差分を出力
     for i in range(M):
         print(next[i] - current[i])
 
