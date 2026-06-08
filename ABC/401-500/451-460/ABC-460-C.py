@@ -1,5 +1,5 @@
-#
-#
+# ABC-460 C - Sushi
+# https://atcoder.jp/contests/abc460/tasks/abc460_c
 #
 from collections import deque
 
